@@ -40,7 +40,7 @@ These code is  implemented in Pytorch 0.4.1 + Python2 + tensorboardX. Thus pleas
 Clone this repo with git, please use:
 
 ```
-git clone https://github.com/wzmsltw/BSN-boundary-sensitive-network.git
+git clone https://github.com/wzmsltw/BSN-boundary-sensitive-network.pytorch.git
 ```
 
 
