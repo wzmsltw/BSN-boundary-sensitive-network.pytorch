@@ -1,6 +1,6 @@
-# BSN-boundary-sensitive-network
+# BSN-boundary-sensitive-network.pytorch
 
-This repo holds the codes of paper: "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation", which is accepted in ECCV 2018.
+This repo holds the pytorch-version codes of paper: "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation", which is accepted in ECCV 2018.
 
 [[Arxiv Preprint]](http://arxiv.org/abs/1806.02964)
 
@@ -31,7 +31,7 @@ Temporal action proposal generation is an important yet challenging problem, sin
 
 # Prerequisites
 
-These code is  implemented in Pytorch 0.4.1 + Python2. Thus please install Pytorch first.
+These code is  implemented in Pytorch 0.4.1 + Python2 + tensorboardX. Thus please install Pytorch first.
 
 # Code and Data Preparation
 
@@ -68,6 +68,7 @@ python main.py --module TEM --mode train
 We also provide trained TEM model in `./checkpoint/`
 
 #### 2. Testing of temporal evaluation module
+
 ```
 python main.py --module TEM --mode inference
 ```
@@ -103,6 +104,8 @@ python main.py --module Post_processing
 ```
 python main.py --module Evaluation
 ```
+
+You can find evaluation figure in `./output`
 
 You can also simply run all above commands using:
 
