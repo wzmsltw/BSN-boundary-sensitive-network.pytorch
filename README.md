@@ -89,7 +89,7 @@ We also provide trained PEM model in `./checkpoint` .
 #### 6. Testing of proposal evaluation module
 
 ```
-python main.py --module PEM --mode inference
+python main.py --module PEM --mode inference --pem_batch_size 1
 ```
 
 #### 7. Post processing and generate final results
